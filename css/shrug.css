@@ -1,0 +1,79 @@
+ text */
+#shrug, nav a {
+	font-family: 'M PLUS Rounded 1c', Georgia, Times, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Poppins', Georgia, Times, serif;
+}
+
+p, a, li {
+	font-family: 'Poppins', Georgia, Times, serif;
+	font-size: 1.5em;
+}
+
+/* link states */
+a:link, a:visited {
+	color:rgb(0,128,0);
+	text-decoration: none;
+}
+
+a:hover {
+	color:rgb(0,128,0);
+	text-decoration: none;
+}
+
+a:active {
+	color:rgb(0,128,0);
+}
+
+/* structure */
+html {
+	background-color: rgb(250,250,250);
+	height: 100%;
+}
+body {
+	margin: 0;
+	padding: 0;
+}
+main {
+	text-align: center;
+	margin-top: 90px;
+}
+
+footer {
+	font-size: 8px;
+	padding: 0;
+	margin: 0;
+	padding-bottom: 10px;
+	height:30px;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+
+/* navigation */
+nav > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(250,250,250);
+}
+
+nav > ul > li {
+  float: left;
+}
+
+nav > ul > li > a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav > ul > li > a:hover {
+  background-color: white;
+}

@@ -1,0 +1,55 @@
+/* text */
+#title {
+	font-size: 5.5em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Poppins', Georgia, Times, serif;
+}
+
+p, a, li {
+	font-family: 'Poppins', Georgia, Times, serif;
+	font-size: 1.5em;
+}
+
+/* link states */
+a:link, a:visited {
+	color:rgb(0,102,153);
+	text-decoration: none;
+}
+
+a:hover {
+	color:white;
+	text-decoration: none;
+}
+
+a:active {
+	color:rgb(0,102,153);
+}
+
+/* structure */
+html {
+	background-color: rgb(0,102,153);
+	background: linear-gradient(rgba(0,102,153),rgba(255,0,0,0));
+	height: 100%;
+}
+body {
+	margin: 0;
+	padding: 0;
+}
+main {
+	width: 640px;
+	text-align: center;
+	margin: auto;
+}
+footer {
+	font-size: 8px;
+	padding: 0;
+	margin: 0;
+	padding-bottom: 10px;
+	height:30px;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
